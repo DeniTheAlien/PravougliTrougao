@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>
+    <title>Pravougli trougao</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+        .div1 {
+            top: 20px;
+            padding-left: 30px;
+          padding-right: 30px;
+          padding-bottom: 15px;
+        }
+      .def {
+          padding-top: 30px;
+          font-size: 20px;
+          padding-left: 30px;
+          padding-right: 30px;
+          padding-bottom: 15px;
+          background-color: rgb(240, 240, 240);
+      }
+      .vrste {
+        padding-top: 15px;
+          font-size: 16px;
+          padding-left: 30px;
+          padding-right: 30px;
+          padding-bottom: 15px;
+      }
+      
+      .pravougli{
+          padding-left: 30px;
+          padding-right: 30px;
+      }
+      .slika{
+          padding-left: 70px;
+      }
+    </style>
+</head>
+
+<body>
+    <!-- Glavni element -->
+<div class="div1">
+    <!-- Definicija -->
+<p class="def"><span style="color: rgb(255, 0, 0);;">DEFINICIJA:</span> Trougao ili trokut je poligon koji ima tri stranice i tri ugla. Jedan je od
+     osnovnih oblika u geometriji. Trougao sa uglovima u tačkama A, B i C se označava kao
+     <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/821677f03b63c3c2e448dffc2ae9c8eea31d9d48" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:7.339ex; height:2.176ex;" alt="{\displaystyle \triangle ABC}">. </p>
+
+<p class="vrste">Trouglovi se mogu razlikovati na osnovu dužina stranica, odnosno njihovom
+     međusobnom odnosu kao i veličini unutrašnjih uglova.</p>
+
+<p class="pravougli"><span style="font-size: 18px; font-weight: 600;">Pravougli Trougao</span>
+    <br>U svakom trouglu samo jedan ugao može biti pravi. Ako bi ovaj trougao ABC imao
+     dva prava ugla, onda bi u tački C bile dvije normale na pravu a. <br> <br>
+     <span style="font-weight: 750;">Definicija:</span> Trougao kome je jedan ugao pravi nazivamo
+      pravougli trougao. <br> <br>
+     <span style="font-weight: 750;">Osobine:</span> <br>
+     Pravi trougao ima jedan pravi i dva oštra ugla <br>
+     Zbir svih unutrašnjih uglova u trouglu iznosi 180°. <br>
+     Stranica nasuprot pravog ugla je hipotenuza, a druge dvije stranice su
+     katete. <br> U pravouglom trouglu hipotenuza je veća od svake katete.
+     Katete su ujedno dvije visine trougla.
+      <br> <br>
+    U pravouglom trouglu važi Pitagorina teorema. <br>
+    <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7ef0a5a4b8ab98870ae5d6d7c7b4dfe3fb6612e2" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:12.336ex; height:2.843ex; left: 25px" alt="{\displaystyle a^{2}+b^{2}=c^{2}}">
+   <br><br> <img class="slika" alt="" src="trokut.png">
+</p>
+
+<p id="formule"><span style ="font-size: 18px;">Obim je:</span><br>
+    <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5cd1301458b734835a3db737a48b7b94b5ff3d2" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:13.787ex; height:2.343ex;" alt="{\displaystyle O=a+b+c}"> <br>
+    <span style ="font-size: 18px;">Površina je:</span> <br>
+    <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4e3b1efe9da4eefc23a44649d930e76c2a43d767" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.838ex; width:15.132ex; height:5.343ex;" alt="{\displaystyle P={\frac {ab}{2}}={\frac {ch_{c}}{2}}}"> <br>
+    <span style ="font-size: 18px;">Prečnik opisanog kruga:</span> <br>
+    <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/243f3fb76ff554a3bb40e418ead347d53621d0a2" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:11.914ex; height:2.509ex;" alt="{\displaystyle R=2t_{c}=c}">
+</p>
+<hr>
+<p id=zadaci> <span style="font-weight: 750;">1. Zadatak</span><br>
+    Izračunati hipotenuzu, površinu i obim, ako su poznate katete a=6cm b=17cm. <br>
+    a=6cm, b=17cm <br>
+    c=?, O=?, P=? <br> <br>
+    c <sup>2</sup>= a<sup>2</sup>+b<sup>2</sup> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    O=a+b+c &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+    P= (a·b)/2 <br>
+
+    c<sup>2</sup>= 6<sup>2</sup>+17<sup>2 </sup>&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    O= 6+17+18 &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp;
+    P= (6·17)/2 <br>
+    c<sup>2</sup>=36 + 289 &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;
+    O=41cm &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;
+    P= 102/2 <br>
+    c<sup>2</sup>=325 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; P=51CM<sup>2</sup> <br>
+    c=√325 <br>
+    c=18cm
+    <hr><br>
+    <span style="font-weight: bold;">2. Zadatak</span><br>
+    Izračunati katetu, obim i površinu, ako su poznate hipotenuza c=19cm i kateta a=6cm. <br>
+    c=19cm, a=6cm <br>
+    b=?, O=?, P=? <br> <br>
+    b<sup>2</sup>=c<sup>2</sup>-a<sup>2</sup>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; O=a+b+c &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P=(a b)/2 <br>
+    b<sup>2</sup>=19<sup>2</sup>-6<sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O=6+18+19&nbsp;&nbsp;&nbsp; P=(6 18)/2 <br>
+    b<sup>2</sup>=361-36 &nbsp;&nbsp;&nbsp; O= 43&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P=108/2 <br>
+    b=√325&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P=54cm<sup>2</sup> <br>
+    b=18cm
+<hr>
+</p>
+
+
+<table style="border: 1px solid black">
+    <thead>
+        <th>Stranica</th>
+        <th>Vrijednost</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>a: </td>
+            <td><input type="number" id="a"></td>
+        </tr>
+        <tr>
+            <td>b: </td>
+            <td><input type="number" id="b"></td>
+        </tr>
+        <tr>
+            <td>c: </td>
+            <td><input type="number" id="c"></td>
+        </tr>
+
+    </tbody>
+</table>
+
+<button onclick="IzracunajObim()">Izračunaj obim</button>
+<button onclick="IzracunajPovrsinu()">Izračunaj površinu</button>
+<button onclick="IzracunajOpisanuKr()">Izracunaj upisanu kružnicu</button><hr/>
+<button onclick="Pitagora()">Izračunaj potrebnu stranicu</button>
+<p>Obim: </p>
+<div id="Obim"></div>
+<p>Površina:</p>
+<div id="Povrsina"></div>
+<p>Opisana Kružnica</p>
+<div id="OpKr"></div>
+<P>Pitagorina Teorema</P>
+<div id="Pitagora2"></div>
+</div>
+<hr/>
+
+</body>
+<script src="script.js"></script>
